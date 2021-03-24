@@ -1,0 +1,62 @@
+@import url("./main.css");
+
+#main-container {
+    width: 60%;
+}
+
+label {
+    font-size: 30px;
+    width: 5%;
+}
+
+input, textarea {
+    width: 90%;
+    float: right;
+
+    border: none;
+    outline: none;
+    color: #EEEEEE;
+    background-color: #282931;
+    caret-color: #EEEEEE;
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+}
+
+input[type=checkbox] {
+    width: 5%;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #EEEEEE;
+}
+
+button {
+    width: 20%;
+    height: 10%;
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    color: #C16261;
+    background-color: #282931;
+    border-color: #C16261;
+    border-style: solid;
+    border-radius: 20px;
+    outline: none;
+}
+
+button:hover {
+    color: #EEEEEE;
+    border-color: #EEEEEE;
+}
+
+button:focus {
+    color: #888888;
+    border-color: #888888;
+}
+
+hr {
+    margin: 1% 0 3% 0;
+}

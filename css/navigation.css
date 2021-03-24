@@ -1,0 +1,46 @@
+nav {
+    position: fixed;
+    top: 5%;
+    right: 5%;
+    height: 10%;
+    width: 90%;
+}
+
+nav > ul {
+    width: 50%;
+}
+
+nav > ul > li {
+    list-style-type: none;
+    display: inline;
+    float: right;
+    margin-left: 10%;
+    font-size: 35px;
+}
+
+nav > ul > li > a {
+    
+}
+
+lottie-player {
+    width: 40%;
+}
+
+.nav-link {
+    color: #EEEEEE;
+    text-decoration: none;
+}
+
+.current-page {
+    /*animation: underline 10s;
+    animation-fill-mode: forwards;
+    border-bottom-width: 0;*/
+    padding-bottom: 20%;
+    border-bottom: 1px solid;
+    
+}
+
+@keyframes underline {
+    from {  }
+    to {  }
+}

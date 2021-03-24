@@ -1,0 +1,46 @@
+h1, h2, h3, h4, h5 {
+    font-weight: 500;
+    margin: 0;
+}
+
+h1 {
+    font-size: 29px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    font-size: 23px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+@media screen and (min-width: 780px) {
+    h1 {
+        font-size: 61px;
+    }
+
+    h2 {
+        font-size: 49px;
+    }
+
+    h3 {
+        font-size: 39px;
+    }
+
+    h4 {
+        font-size: 31px;
+    }
+
+    h5 {
+        font-size: 25px;
+    }
+}
